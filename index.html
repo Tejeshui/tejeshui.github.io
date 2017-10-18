@@ -1,0 +1,209 @@
+<!DOCTYPE HTML>
+<!--
+	Theory by TEMPLATED
+	templated.co @templatedco
+	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+-->
+<html>
+	<head>
+		<title>Theory by TEMPLATED</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+        <link rel="stylesheet" href="assets/css/jquery.fullpage.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+        <script src="assets/js/jquery.fullpage.js" id="scScrollFlow"></script>
+        
+      
+    </head>
+    
+    <script>
+        function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
+}
+        $(document).ready(function() {
+            if (window.innerWidth > 1024) 
+            {
+                $('#fullpage').fullpage();
+            }
+        });
+        
+        $(window).resize(function(){location.reload();});
+</script>
+	<body onResize="refresh()">
+        
+
+		<!-- Header -->
+        
+        <div class="main">
+             
+        <header class="content">
+            <div class="inner">
+					<div class="logo">
+                        <a href="index.html"><img class="img-responsive" src="images/logo_img.png"></a>
+                    </div>
+					<nav class="topnav" id="myTopnav">
+                        <div class="scroll-container">
+						<a href="index.html"><span style="color:black;font-weight: bolder;">HOME</span></a>
+						<a href="index.html">WORK</a>
+						<a href="about_us.html">ABOUT US</a>
+                        <a href="index.html">BLOG</a>
+                        <a href="index.htmll">LEARN</a>
+                        <a href="index.html">CONTACT</a>
+                        <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+                        </div>
+					</nav>
+					</div>
+        </header>
+        
+        
+        <div id="fullpage">
+        <section class="section">
+            <div class="content">
+                <div class="page_content">
+                <div class="flipcart">
+                <img src="images/flipcart.png">
+                </div>
+            </div>
+            <div class="page_content1">
+                <div class="subcontainer1">
+                <h1><span class="light"> ekart </span><br>Helping Flipkart Optimise Logistics</h1>
+                    <a href="flipcart.html"><button>COMMING SOON</button></a>
+                </div>
+            </div>
+            
+            </div>
+        </section>
+        
+        <section class="section">
+            <div class="content">
+                <div class="page_content">
+                <div class="flipcart">
+                <img src="images/sap_localization.png">
+                </div>
+            </div>
+            <div class="page_content1">
+                <div class="subcontainer1">
+                    <img src="images/sap_name.png"><h1>Branding SAP Localisation Hub</h1>
+                <a href="sap_localization.html"><button>VIEW</button></a>
+                </div>
+            </div>
+            
+            </div>
+        </section>
+        <section class="section">
+            <div class="content">
+                <div class="page_content">
+                <div class="flipcart">
+                <img src="images/alore.png">
+                </div>
+            </div>
+            <div class="page_content1">
+                <div class="subcontainer1">
+                    <h1><span class="light">Alore </span><br>Improve productivity, that translates into growth</h1>
+                <a href="alore.html"><button>VIEW</button></a>
+                </div>
+            </div>
+            
+            </div>
+        </section>
+        <section class="section">
+            <div class="content">
+                <div class="page_content">
+                <div class="flipcart">
+                <img src="images/cognihealth.png">
+                </div>
+            </div>
+            <div class="page_content1">
+                <div class="subcontainer1">
+                    <h1><span class="light">CogniHealth</span> <br>Simplifying Dementia Care</h1>
+                <a href="cognihealth.html"><button>VIEW</button></a>
+                </div>
+            </div>
+            
+            </div>
+        </section>
+        <section class="section">
+            <div class="content">
+                <div class="page_content">
+                <div class="flipcart">
+                <img src="images/bordo.png">
+                </div>
+            </div>
+            <div class="page_content1">
+                <div class="subcontainer1">
+                     <h1><span class="light">Bordo</span><br> Aggregating Ad Spaces Online </h1>
+                <a href="bordo.html"><button>VIEW</button></a>
+                </div>
+            </div>
+            
+            </div>
+        </section>
+        <section class="section">
+            <div class="content">
+                <div class="page_content">
+                <div class="flipcart">
+                <img src="images/jiyo.png">
+                </div>
+            </div>
+            <div class="page_content1">
+                <div class="subcontainer1">
+                    <h1><span class="light">Jiyo </span><br>E-Commerce For A Personal Well Being</h1>
+                <a href="jiyo.html"><button>VIEW</button></a>
+                </div>
+            </div>
+            
+            </div>
+        </section>
+            
+            
+        <section class="section">
+            <div class="content">
+                <div class="contact_form">
+                    <h1>Work with us</h1>
+                    <form class="form_elements">
+                    
+                        <div class="about_yourself">
+                            <h3>About Yourself</h3>
+                        <input class="form_input1" placeholder="NAME" type="text" required>
+                        <input class="form_input1" placeholder="COMPANY" type="text" required>
+                        <input class="form_input1" placeholder="EMAIL" type="email" required>
+                        <input class="form_input1" placeholder="PHONE" type="tel" >
+                        </div>
+                        
+                        <div class="about_project">
+                            <h3>About Yourself</h3>
+                            
+                            <select id="project" name="services">
+                                <option value="service2">service2</option>
+                                <option value="service2">service2</option>
+                                <option value="service2">service1</option>
+                            </select>
+                            
+                            <select id="project" name="services">
+                                <option value="service2">service2</option>
+                                <option value="service2">service2</option>
+                                <option value="service2">service1</option>
+                            </select>
+                            
+                            <textarea class="textarea" name="" id="" placeholder="BRIEF"></textarea>
+                        </div>
+                        
+                        <button type="button">SEND</button>
+                    
+                    </form>
+                </div>
+            </div>
+        </section>
+        
+			
+            </div>  
+    </div>
+	</body>
+</html>
