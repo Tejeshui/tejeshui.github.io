@@ -474,8 +474,8 @@ section {
     width: 100%;
     float: left;
     margin-top: 0px;
-    margin-bottom: 30px;
-    padding-top: 20px;
+    margin-bottom: 60px;
+    padding-top:0px;
     padding-bottom: 20px;
 }
 
@@ -485,7 +485,7 @@ section {
 }
 
 .flipcart img {
-    width: 250px;
+    width: 200px;
     float: left;
     margin-bottom: 20px;
 }
@@ -557,14 +557,7 @@ h3 {
     
 }
 
-section {
-    width: 100%;
-    float: left;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    padding-top: 0px;
-    padding-bottom: 20px;
-}
+
 
 .projects {
     width: 100%;
