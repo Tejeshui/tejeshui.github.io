@@ -1,0 +1,810 @@
+body{
+    margin:0px;
+    padding:0px;
+    font-family: VisbyCF-Medium;
+    color:#333333;
+    font-size: 16px;
+    
+}
+
+h1,h2,h3,h4,h5,h6,p{
+    
+    margin:0px;
+    padding:0px;
+}
+
+p{
+    color:#7a7a7a;
+}
+@font-face {
+    font-family:VisbyCF-Bold;
+    src: url(../fonts/VisbyCF-Bold.otf);
+}
+
+@font-face {
+    font-family:VisbyCF-Thin;
+    src: url(../fonts/VisbyCF-Thin.otf);
+}
+@font-face {
+    font-family:VisbyCF-Medium;
+    src: url(../fonts/VisbyCF-Medium.otf);
+}
+
+.main{
+    width:100%;
+    height: auto;
+}
+.content{
+    
+    width:80%;
+    margin:0px auto;
+}
+
+/* header**/
+
+.inner {
+    width: 100%;
+    float: left;
+    margin-top: 30px;
+    
+}
+
+.logo {
+    width: auto;
+    float: left;
+}
+
+.topnav {
+    width: auto;
+    float: right;
+    margin-top: 21px;
+}
+
+@media screen and (max-width: 768px) {
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+    
+    nav a {
+    text-decoration: none;
+    padding: 4px 0px 0px 16px;
+    letter-spacing: 1.5px;
+    font-size: 16px;
+    color: #5f5f5f;
+}
+}
+
+@media screen and (max-width: 768px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive a.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+    nav a {
+    text-decoration: none;
+    padding: 8px 0px 0px 20px;
+    letter-spacing: 1.5px;
+    font-size:1em;
+    color: #5f5f5f;
+}
+}
+
+nav a {
+    text-decoration: none;
+    padding: 0px 0px 0px 16px;
+    letter-spacing: 1.5px;
+    font-size: 1em;
+    color: #5f5f5f;
+    position: relative;
+    z-index: 1;
+}
+nav a:hover {
+    color: #000;
+}
+.topnav .icon {
+    display: none;
+}
+
+
+section{
+    width:100%;
+    float:left;
+}
+
+.page_content1{
+    width:60%;
+    float:left;
+}
+
+.page_content{
+    width:40%;
+    float:right;
+}
+
+
+
+.subcontainer1 h1 {
+    font-size:4em;
+    letter-spacing:0px;
+    margin: 0px 0px 44px 0px;
+    font-family: VisbyCF-Bold;
+}
+
+
+button {
+    border: 1px solid #838383;
+    border-radius: 20px;
+    padding: 10px 42px;
+    background: none;
+    letter-spacing: 2px;
+    font-family: VisbyCF-Medium;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #d3d3d3;
+    font-weight: bold;
+    color: #ffff;
+}
+
+.flipcart img {
+    width:270px;
+    float: right;
+}
+
+.light{
+    
+    font-family: VisbyCF-Thin;
+    font-weight: lighter;
+    font-size: 1em;
+}
+
+/* contact form **/
+
+.contact_form h1 {
+    font-size: 3rem;
+}
+
+h3 {
+    font-size: 1rem;
+    margin: 15px 0px 5px 0px;
+}
+
+.form_elements input{
+    width: 43%;
+    height: 50px;
+    border: 1px solid gray;
+    border-radius: 8px;
+    margin: 0px 15px 15px 0px;
+    padding: 0px 28px;
+}
+
+::-moz-placeholder {
+    opacity: .5;
+    color: gray;
+    font-size: 18px;
+    margin-right: 9px;
+    padding-left: 9px;
+}
+
+.about_yourself{
+    width:100%;
+}
+
+.about_project select {
+    width: 48%;
+    height: 53px;
+    border: 1px solid gray;
+    border-radius: 6px;
+    margin: 0px 15px 15px 0px;
+    padding: 0px 26px;
+    font-size: 18px;
+    color: gray;
+}
+
+.about_project textarea {
+    width: 98%;
+    border-radius: 7px;
+    border: 1px solid gray;
+    height: 76px;
+    resize: none;
+    color: gray;
+    margin-bottom: 16px;
+}
+
+textarea::-webkit-input-placeholder {
+color: #fff;
+}
+
+/* about us css **/
+
+.abt_main h1{
+    
+    float:left;
+}
+
+.abt_main {
+    width: 100%;
+    float: left;
+}
+
+.abt_main h1 {
+    float: left;
+    font-size: 3rem;
+    width: 50%;
+    font-family: VisbyCF-Bold;
+}
+
+
+.bg_top{
+    width: 100%;
+    
+}
+.bg_top img {
+    width: 100%;
+}
+
+.client_content {
+    width: 100%;
+    float: left;
+}
+
+.projects {
+    width: 50%;
+    float: left;
+}
+
+.cliet_details1 {
+    width: 100%;
+    float: left;
+    margin-left: 105px;
+}
+
+.cliet_details {
+    width: 30%;
+    float: left;
+}
+
+.projects p {
+    letter-spacing: 1px;
+    line-height: 2rem;
+}
+.bg_top2 {
+    width:100%;
+    float:left;
+    margin:0px auto;
+}
+.bg_top2 img{
+    
+    width:100%;
+}
+
+.Initial_concepts {
+    width: 60%;
+    float: left;
+}
+.Spec{
+    width: 60%;
+    float: left;
+}
+
+.innerpage{
+    padding-top: 80px;
+}
+
+.cliet_details1 {
+    margin-bottom: 30px;
+}
+
+.cliet_details1 h2 {
+    margin-bottom: 15px;
+}
+
+
+
+
+/* responsive design **/
+
+@media  (max-device-width : 420px){
+    
+    body{
+        background-color:none;
+    }
+    
+    .content {
+    
+    margin: 10px auto;
+}
+
+section {
+    width: 100%;
+    float: left;
+    margin-top: 0px;
+    margin-bottom: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.page_content {
+    width: 300px;
+    float: left;
+}
+
+.flipcart img {
+    width: 170px;
+    float: left;
+    margin-bottom: 20px;
+}
+    
+    .subcontainer1 h1{
+        
+        font-size: 2em;
+        width: 100%;
+        margin: 0px 0px 15px 0px;
+        line-height: 42px;
+    }
+    
+    .button{
+
+	width: 100%;
+	padding: 11px 0px;
+}
+    .page_content1 {
+    width: 100%;
+    float: left;
+}
+    .about_project select {
+    width: 100%;
+    }
+    
+    h3 {
+    font-size: 1em;
+    margin: 8px 0px 24px 0px;
+}
+
+.contact_form h1 {
+    font-size: 2em;
+    width: ;
+}
+
+h3 {
+    font-size: 1em;
+    margin: 13px 0px 24px 0px;
+}
+
+.form_elements input {
+    width: 94%;
+    height: 42px;
+    border: 1px solid gray;
+    border-radius: 8px;
+    margin: 0px 13px 21px 0px;
+    padding: 0px 10px;
+}
+    .subcontainer1 img {
+    width: 50px;
+}
+      /* innerpage **/
+    .bg_top {
+    width: 100%;
+
+}
+  
+
+ .abt_main h1 {
+    font-size: 2rem;
+    width: 100%;
+}
+
+    
+    .bg_top {
+    width: 270px;
+    
+}
+
+section {
+    width: 100%;
+    float: left;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 0px;
+    padding-bottom: 20px;
+}
+
+.projects {
+    width: 100%;
+    float: left;
+}
+
+.cliet_details {
+    width: 100%;
+    float: left;
+}
+.cliet_details1 {
+    width: 100%;
+    float: left;
+    margin-left: 0px;
+}
+
+.Spec {
+    width: 100%;
+    float: left;
+}
+
+.bg_top2 {
+    width: 100%;
+    float: left;
+    margin: 0px auto;
+}
+
+.Initial_concepts {
+    width: 100%;
+    float: left;
+}
+
+
+.bg_top2 img {
+    width: 270px;
+}
+
+
+    
+}
+
+@media only screen and (min-device-width :421px) and (max-width:480px) {
+    
+    body{
+        background-color: none;
+    }
+    
+    .content {
+    
+    margin: 10px auto;
+}
+
+section {
+    width: 100%;
+    float: left;
+    margin-top: 0px;
+    margin-bottom: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.page_content {
+    width: 400px;
+    float: left;
+}
+
+.flipcart img {
+    width: 250px;
+    float: left;
+    margin-bottom: 20px;
+}
+    
+    .subcontainer1 h1{
+        
+        font-size: 2em;
+        width: 100%;
+        margin: 0px 0px 15px 0px;
+        line-height: 42px;
+    }
+    
+    .button{
+
+	width: 100%;
+	padding: 11px 0px;
+}
+    .page_content1 {
+    width: 100%;
+    float: left;
+}
+    .about_project select {
+    width: 100%;
+    }
+    
+    h3 {
+    font-size: 1em;
+    margin: 8px 0px 24px 0px;
+}
+
+.contact_form h1 {
+    font-size: 2em;
+    width: ;
+}
+
+h3 {
+    font-size: 1em;
+    margin: 13px 0px 24px 0px;
+}
+
+.form_elements input {
+    width: 94%;
+    height: 42px;
+    border: 1px solid gray;
+    border-radius: 8px;
+    margin: 0px 13px 21px 0px;
+    padding: 0px 10px;
+}
+    .subcontainer1 img {
+    width: 50px;
+}
+
+    /* innerpage **/
+    
+    
+    .abt_main h1 {
+    font-size: 2rem;
+    width: 100%;
+}
+
+    .bg_top {
+    width: 100%;
+    height: 150px;
+    background-color: #f2f2f2;
+}
+
+.bg_top {
+    width: 350px;
+    
+}
+
+section {
+    width: 100%;
+    float: left;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 0px;
+    padding-bottom: 20px;
+}
+
+.projects {
+    width: 100%;
+    float: left;
+}
+
+.cliet_details {
+    width: 100%;
+    float: left;
+}
+.cliet_details1 {
+    width: 100%;
+    float: left;
+    margin-left: 0px;
+}
+
+.Spec {
+    width: 100%;
+    float: left;
+}
+
+.bg_top2 {
+    width: 100%;
+    float: left;
+    margin: 0px auto;
+}
+
+.Initial_concepts {
+    width: 100%;
+    float: left;
+}
+
+
+.bg_top2 img {
+    width: 350px;
+}
+    
+}
+
+@media only screen and (min-device-width :481px) and (max-width: 768px) {
+    
+    body{
+        background: none;
+    }
+    
+    .content {
+    
+    margin: 10px auto;
+}
+
+section {
+    width: 100%;
+    float: left;
+    margin-top: 0px;
+    margin-bottom: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.page_content {
+    width: 400px;
+    float: left;
+}
+
+.flipcart img {
+    width: 300px;
+    float: left;
+    margin-bottom: 20px;
+}
+    
+    .subcontainer1 h1 {
+    font-size: 3rem;
+    width: 100%;
+    margin: 0px 0px 15px 0px;
+    line-height: 55px;
+}
+    .button{
+
+	width: 100%;
+	padding: 11px 0px;
+}
+    .page_content1 {
+    width: 100%;
+    float: left;
+}
+    .about_project select {
+    width: 100%;
+    }
+    
+    h3 {
+    font-size: 1em;
+    margin: 8px 0px 24px 0px;
+}
+
+.contact_form h1 {
+    font-size: 2em;
+    width: ;
+}
+
+h3 {
+    font-size: 1em;
+    margin: 13px 0px 24px 0px;
+}
+
+.form_elements input {
+    width: 94%;
+    height: 42px;
+    border: 1px solid gray;
+    border-radius: 8px;
+    margin: 0px 13px 21px 0px;
+    padding: 0px 10px;
+}
+    
+    .subcontainer1 img {
+    width: 50px;
+}
+    
+    .bg_top {
+    width: 100%;
+    
+}
+  
+
+ .abt_main h1 {
+    font-size: 2rem;
+    width: 100%;
+}
+
+    
+    .bg_top {
+    width: 420px;
+    
+}
+
+section {
+    width: 100%;
+    float: left;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 0px;
+    padding-bottom: 20px;
+}
+
+.projects {
+    width: 100%;
+    float: left;
+}
+
+.cliet_details {
+    width: 100%;
+    float: left;
+}
+.cliet_details1 {
+    width: 100%;
+    float: left;
+    margin-left: 0px;
+}
+
+.Spec {
+    width: 100%;
+    float: left;
+}
+
+.bg_top2 {
+    width: 100%;
+    float: left;
+    margin: 0px auto;
+}
+
+.Initial_concepts {
+    width: 100%;
+    float: left;
+}
+
+
+.bg_top2 img {
+    width: 420px;
+}
+
+
+    
+}
+
+@media only screen and (min-device-width :769px) and (max-width: 1024px) {
+    
+    content {
+    width: 90%;
+    margin: 0px auto;
+}
+
+.flipcart img {
+    width: 250px;
+    float: right;
+}
+
+.subcontainer1 h1 {
+    font-size: 2em;
+    letter-spacing: 0px;
+    margin: 0px 0px 44px 0px;
+    font-family: VisbyCF-Bold;
+}
+
+.about_project select {
+    width: 48%;
+    height: 53px;
+    border: 1px solid gray;
+    border-radius: 6px;
+    margin: 0px 10px 15px 0px;
+    padding: 0px 26px;
+    font-size: 18px;
+    color: gray;
+}
+
+.form_elements input {
+    width: 43%;
+    height: 50px;
+    border: 1px solid gray;
+    border-radius: 8px;
+    margin: 0px 5px 15px 0px;
+    padding: 0px 18px;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
