@@ -7,7 +7,7 @@ body{
     
 }
 
-h1,h2,h3,h4,h5,h6,p{
+h1,h2,h3,h4,h5,h6{
     
     margin:0px;
     padding:0px;
@@ -271,6 +271,7 @@ color: #fff;
 .cliet_details {
     width: 30%;
     float: left;
+    
 }
 
 .projects p {
@@ -300,20 +301,12 @@ color: #fff;
     padding-top: 80px;
 }
 
-.cliet_details1 {
-    margin-bottom: 30px;
-}
-
-.cliet_details1 h2 {
-    margin-bottom: 15px;
-}
-
 
 
 
 /* responsive design **/
 
-@media  (max-device-width : 420px){
+@media only screen and (min-device-width :280px) and (max-width: 420px){
     
     body{
         background-color:none;
@@ -323,20 +316,16 @@ color: #fff;
     
     margin: 10px auto;
 }
-	.img-responsive {
+
+    
+    .img-responsive {
     width: 100px;
 }
-	
-	.topnav {
-    width: auto;
-    float: right;
-    margin-top: 12px;
-}
-
+    
 section {
     width: 100%;
     float: left;
-    margin-top: 30px;
+    margin-top: 35px;
     margin-bottom: 0px;
     padding-top: 0px;
     padding-bottom: 20px;
@@ -418,7 +407,6 @@ h3 {
     
 }
 
-
 .projects {
     width: 100%;
     float: left;
@@ -427,8 +415,7 @@ h3 {
 .cliet_details {
     width: 100%;
     float: left;
-    margin-top: 30px;
-}
+    margin-top: 50px;
 }
 .cliet_details1 {
     width: 100%;
@@ -456,8 +443,8 @@ h3 {
 .bg_top2 img {
     width: 270px;
 }
-	.innerpage{
-    padding-top: 0px;
+    .innerpage{
+    padding-top: 1px;
 }
 
 
@@ -474,13 +461,16 @@ h3 {
     
     margin: 10px auto;
 }
-
+.img-responsive {
+    width: 100px;
+}
+    
 section {
     width: 100%;
     float: left;
-    margin-top: 0px;
-    margin-bottom: 60px;
-    padding-top:0px;
+    margin-top: 35px;
+    margin-bottom: 0px;
+    padding-top: 0px;
     padding-bottom: 20px;
 }
 
@@ -490,7 +480,7 @@ section {
 }
 
 .flipcart img {
-    width: 200px;
+    width: 250px;
     float: left;
     margin-bottom: 20px;
 }
@@ -563,7 +553,6 @@ h3 {
 }
 
 
-
 .projects {
     width: 100%;
     float: left;
@@ -572,7 +561,7 @@ h3 {
 .cliet_details {
     width: 100%;
     float: left;
-	margin-top: 30px;
+    margin-top: 50px;
 }
 .cliet_details1 {
     width: 100%;
@@ -600,8 +589,8 @@ h3 {
 .bg_top2 img {
     width: 350px;
 }
-	.innerpage{
-    padding-top: 0px;
+    .innerpage{
+    padding-top: 1px;
 }
     
 }
@@ -616,13 +605,16 @@ h3 {
     
     margin: 10px auto;
 }
+    .img-responsive {
+    width: 100px;
+}
 
 section {
     width: 100%;
     float: left;
-    margin-top: 0px;
-    margin-bottom: 30px;
-    padding-top: 20px;
+    margin-top: 35px;
+    margin-bottom: 0px;
+    padding-top: 0px;
     padding-bottom: 20px;
 }
 
@@ -701,14 +693,6 @@ h3 {
     
 }
 
-section {
-    width: 100%;
-    float: left;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    padding-top: 0px;
-    padding-bottom: 20px;
-}
 
 .projects {
     width: 100%;
@@ -718,7 +702,7 @@ section {
 .cliet_details {
     width: 100%;
     float: left;
-	margin-top: 30px;
+    margin-top: 50px;
 }
 .cliet_details1 {
     width: 100%;
@@ -746,8 +730,8 @@ section {
 .bg_top2 img {
     width: 420px;
 }
-	.innerpage{
-    padding-top: 0px;
+    .innerpage{
+    padding-top: 1px;
 }
 
 
