@@ -323,13 +323,22 @@ color: #fff;
     
     margin: 10px auto;
 }
+	.img-responsive {
+    width: 100px;
+}
+	
+	.topnav {
+    width: auto;
+    float: right;
+    margin-top: 12px;
+}
 
 section {
     width: 100%;
     float: left;
-    margin-top: 0px;
-    margin-bottom: 30px;
-    padding-top: 20px;
+    margin-top: 55px;
+    margin-bottom: 0px;
+    padding-top: 0px;
     padding-bottom: 20px;
 }
 
