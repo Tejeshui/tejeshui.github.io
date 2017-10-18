@@ -454,6 +454,9 @@ h3 {
 .bg_top2 img {
     width: 270px;
 }
+	.innerpage{
+    padding-top: 0px;
+}
 
 
     
@@ -593,6 +596,9 @@ h3 {
 
 .bg_top2 img {
     width: 350px;
+}
+	.innerpage{
+    padding-top: 0px;
 }
     
 }
@@ -735,6 +741,9 @@ section {
 
 .bg_top2 img {
     width: 420px;
+}
+	.innerpage{
+    padding-top: 0px;
 }
 
 
