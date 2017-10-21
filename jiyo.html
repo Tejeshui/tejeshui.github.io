@@ -1,12 +1,8 @@
 <!DOCTYPE HTML>
-<!--
-	Theory by TEMPLATED
-	templated.co @templatedco
-	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
--->
+
 <html>
 	<head>
-		<title>Theory by TEMPLATED</title>
+		<title>Dtale landing page</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<link rel="stylesheet" href="assets/css/main.css" />
@@ -19,13 +15,12 @@
     </head>
     
     <script>
-        function myFunction() {
-        var x = document.getElementById("myTopnav");
-        if (x.className === "topnav") {
-        x.className += " responsive";
-    } else {
-        x.className = "topnav";
-    }
+        function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+}
+
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
 }
         
 </script>
@@ -41,17 +36,17 @@
 					<div class="logo">
                         <a href="index.html"><img class="img-responsive" src="images/logo_img.png"></a>
                     </div>
-					<nav class="topnav" id="myTopnav">
-                        <div class="scroll-container">
-						<a href="index.html">HOME</a>
-						<a href="index.html">WORK</a>
-						<a href="index.html">ABOUT US</a>
-                        <a href="index.html">BLOG</a>
-                        <a href="index.htmll">LEARN</a>
-                        <a href="index.html">CONTACT</a>
-                        <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
-                        </div>
-					</nav>
+					<div id="mySidenav" class="sidenav">
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                    <a href="index.html">HOME</a>
+                    <a href="#">WORK</a>
+                    <a href="#">ABOUT US</a>
+                    <a href="#">BLOG</a>
+                    <a href="#">LEARN</a>
+                    <a href="#">CONTACT</a>
+                    </div>
+
+                <span class="menu_button" onclick="openNav()" >&#9776;</span>
 					</div>
         </header>
         
