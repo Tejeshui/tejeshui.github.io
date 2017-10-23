@@ -884,6 +884,24 @@ h3 {
 	#mySidenav a {
         padding: 8px 8px 8px 13px;
     }
+	
+	.intialpage {
+    margin-top: 140px;
+}
+
+
+.section {
+	margin-top: 100px;
+}
+
+.flipcart img {
+    width: 220px;
+    float: right;
+}
+
+header {
+	left: 82px;
+}
 }
 
 
