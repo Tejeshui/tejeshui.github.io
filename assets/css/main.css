@@ -54,6 +54,10 @@ p{
     float: left;
 }
 
+.logo img {
+    width: 120px;
+}
+
 #mySidenav {
     float: right;
     margin-top: 15px;
@@ -338,6 +342,37 @@ color: #fff;
 .innerpage{
     padding-top: 80px;
 }
+
+/* work css **/
+
+.work_main {
+
+        
+    background-image: url("../images/work_banner.jpg");
+    height: 730px;
+    margin-top: 30px;
+}
+
+.tagline h1 {
+    bottom: 508px;
+    left: 131px;
+    font-size: 4rem;
+    font-family: VisbyCF-Thin;
+    color: #ffffff;
+    line-height: 5.6rem;
+}
+
+.Dark{
+    font-family:VisbyCF-Bold; 
+}
+
+.work_main h1 {
+    font-size: 4em;
+    font-family: VisbyCF-Thin;
+    position: relative;
+    top: 270px;
+    left: 143px;
+    color: #ffffff;
 
 
 
@@ -837,25 +872,3 @@ h3 {
     padding: 0px 18px;
 }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
