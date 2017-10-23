@@ -881,6 +881,9 @@ h3 {
     margin: 0px 5px 15px 0px;
     padding: 0px 18px;
 }
+	#mySidenav a {
+        padding: 8px 8px 8px 13px;
+    }
 }
 
 
