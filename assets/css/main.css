@@ -352,6 +352,21 @@ color: #fff;
     padding-top: 80px;
 }
 
+.projects p {
+    font-size: 1.2em;
+    line-height: 1.8rem;
+}
+
+.Initial_concepts p {
+    font-size: 1.2em;
+    line-height: 1.8rem;
+}
+
+.Spec {
+    font-size: 1.2em;
+    line-height: 1.8rem;
+}
+
 /* work css **/
 
 
