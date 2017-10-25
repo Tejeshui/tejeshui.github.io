@@ -308,7 +308,7 @@ color: #fff;
 }
 
 .projects {
-    width: 50%;
+    width: 57%;
     float: left;
 }
 
@@ -324,10 +324,15 @@ color: #fff;
     
 }
 
-.projects p {
-    letter-spacing: 1px;
-    line-height: 2rem;
+.section.innerpage p {
+    font-size: 1.3em;
+    line-height: 2.5rem;
 }
+
+.cliet_details1 p {
+    margin-top: 11px;
+}
+
 .bg_top2 {
     width:100%;
     float:left;
