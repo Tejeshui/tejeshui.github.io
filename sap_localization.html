@@ -24,8 +24,6 @@ function closeNav() {
 }
         
 </script>
-        
-
 	<body>
         
 
@@ -36,29 +34,29 @@ function closeNav() {
         <header class="content">
             <div class="inner">
 					<div class="logo">
-                        <a href="index.html">
+                       <a href="index.html">
                         
                             <img src="images/logo.svg">
                             
                         </a>
                     </div>
-					<nav class="topnav" id="myTopnav">
-                        <div class="scroll-container">
-						<a href="index.html">HOME</a>
-						<a href="index.html">WORK</a>
-						<a href="index.html">ABOUT US</a>
-                        <a href="index.html">BLOG</a>
-                        <a href="index.htmll">LEARN</a>
-                        <a href="index.html">CONTACT</a>
-                        <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
-                        </div>
-					</nav>
+					<div id="mySidenav" class="sidenav">
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                    <a href="index.html">HOME</a>
+                    <a href="work.html">WORK</a>
+                    <a href="about_us.html">ABOUT US</a>
+                    <a href="#">BLOG</a>
+                    <a href="#">LEARN</a>
+                    <a href="#">CONTACT</a>
+                    </div>
+
+                <span class="menu_button" onclick="openNav()" >&#9776;</span>
 					</div>
         </header>
         
         
         <div id="fullpage">
-        <section class="section">
+        <section class="section innerpage">
             <div class="content">
                 <div class="abt_main">
                 <h1> An app forskateboarders & BMX riders to film & showcase their skills, get discovered and follow </h1>
@@ -67,7 +65,7 @@ function closeNav() {
             </div>
         </section>
         
-        <section class="section">
+        <section class="section innerpage">
             <div class="content">
                 <div class="bg_top">
                 
@@ -76,7 +74,7 @@ function closeNav() {
             
             </div>
         </section>
-        <section class="section">
+        <section class="section innerpage">
             <div class="content">
                 <div class="client_content">
                     <div class="projects">
@@ -107,7 +105,7 @@ function closeNav() {
                 </div>
             </div>
         </section>
-        <section class="section">
+        <section class="section innerpage">
             <div class="content">
                 <div class="bg_top2">
                     <img src="images/bg1.png">
@@ -115,7 +113,7 @@ function closeNav() {
                 
                 </div>
         </section>
-        <section class="section">
+        <section class="section innerpage">
             <div class="content">
                 <div class="Initial_concepts">
                     <h2>Intial concepts</h2>
@@ -123,7 +121,7 @@ function closeNav() {
                 </div>    
             </div>
         </section>
-        <section class="section">
+        <section class="section innerpage">
             <div class="content">
                <div class="bg_top2">
                     <img src="images/bg2.png">
@@ -132,7 +130,7 @@ function closeNav() {
         </section>
             
             
-        <section class="section">
+        <section class="section innerpage">
             <div class="content">
                 <div class="Spec">
                     <h2>Spec for development</h2>
@@ -142,7 +140,7 @@ alongside annotated breakdowns of flows and the original wireframes.</p>
             </div>
         </section>
             
-            <section class="section">
+            <section class="section innerpage">
             <div class="content">
                 <div class="bg_top2">
                     <img src="images/bg1.png">
@@ -151,7 +149,7 @@ alongside annotated breakdowns of flows and the original wireframes.</p>
                 </div>
         </section>
         
-            <section class="section">
+            <section class="section innerpage">
             <div class="content">
                 <div class="bg_top2">
                     <img src="images/bg2.png">
@@ -160,7 +158,7 @@ alongside annotated breakdowns of flows and the original wireframes.</p>
                 </div>
         </section>
         
-            <section class="section">
+            <section class="section innerpage">
             <div class="content">
                 <div class="bg_top2">
                     <img src="images/bg3.png">
@@ -169,7 +167,7 @@ alongside annotated breakdowns of flows and the original wireframes.</p>
                 </div>
         </section>
         
-            <section class="section">
+            <section class="section innerpage">
             <div class="content">
                 <div class="bg_top2">
                     <img src="images/bg4.png">
@@ -178,7 +176,7 @@ alongside annotated breakdowns of flows and the original wireframes.</p>
                 </div>
         </section>
         
-            <section class="section">
+            <section class="section innerpage">
             <div class="content">
                 <div class="More_Projects">
                     <h2>More Projects</h2>
@@ -193,6 +191,7 @@ alongside annotated breakdowns of flows and the original wireframes.</p>
 			
             </div>  
     </div>
+        
         <footer>
             
             <div class="footer_main">
