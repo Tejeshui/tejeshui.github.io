@@ -200,8 +200,8 @@ button {
 
 button:hover {
     background-color: #d3d3d3;
-    font-weight: bold;
     color: #ffff;
+    transition-duration: 0.8s;
 }
 
 .flipcart img {
