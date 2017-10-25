@@ -1,12 +1,8 @@
 <!DOCTYPE HTML>
-<!--
-	Theory by TEMPLATED
-	templated.co @templatedco
-	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
--->
+
 <html>
 	<head>
-		<title>Theory by TEMPLATED</title>
+		<title>Dtale landing page</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<link rel="stylesheet" href="assets/css/main.css" />
@@ -19,13 +15,12 @@
     </head>
     
     <script>
-        function myFunction() {
-        var x = document.getElementById("myTopnav");
-        if (x.className === "topnav") {
-        x.className += " responsive";
-    } else {
-        x.className = "topnav";
-    }
+        function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+}
+
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
 }
         
 </script>
@@ -39,29 +34,29 @@
         <header class="content">
             <div class="inner">
 					<div class="logo">
-                        <a href="index.html">
+                       <a href="index.html">
                         
                             <img src="images/logo.svg">
                             
                         </a>
                     </div>
-					<nav class="topnav" id="myTopnav">
-                        <div class="scroll-container">
-						<a href="index.html">HOME</a>
-						<a href="work.html">WORK</a>
-						<a href="about_us.html">ABOUT US</a>
-                        <a href="#">BLOG</a>
-                        <a href="#">LEARN</a>
-                        <a href="#">CONTACT</a>
-                        <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
-                        </div>
-					</nav>
+					<div id="mySidenav" class="sidenav">
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                    <a href="index.html">HOME</a>
+                    <a href="work.html">WORK</a>
+                    <a href="about_us.html">ABOUT US</a>
+                    <a href="#">BLOG</a>
+                    <a href="#">LEARN</a>
+                    <a href="#">CONTACT</a>
+                    </div>
+
+                <span class="menu_button" onclick="openNav()" >&#9776;</span>
 					</div>
         </header>
         
         
         <div id="fullpage">
-        <section class="section">
+        <section class="section innerpage">
             <div class="content">
                 <div class="abt_main">
                 <h1> An app forskateboarders & BMX riders to film & showcase their skills, get discovered and follow </h1>
@@ -70,7 +65,7 @@
             </div>
         </section>
         
-        <section class="section">
+        <section class="section innerpage">
             <div class="content">
                 <div class="bg_top">
                 
@@ -79,7 +74,7 @@
             
             </div>
         </section>
-        <section class="section">
+        <section class="section innerpage">
             <div class="content">
                 <div class="client_content">
                     <div class="projects">
@@ -110,7 +105,7 @@
                 </div>
             </div>
         </section>
-        <section class="section">
+        <section class="section innerpage">
             <div class="content">
                 <div class="bg_top2">
                     <img src="images/bg1.png">
@@ -118,7 +113,7 @@
                 
                 </div>
         </section>
-        <section class="section">
+        <section class="section innerpage">
             <div class="content">
                 <div class="Initial_concepts">
                     <h2>Intial concepts</h2>
@@ -126,7 +121,7 @@
                 </div>    
             </div>
         </section>
-        <section class="section">
+        <section class="section innerpage">
             <div class="content">
                <div class="bg_top2">
                     <img src="images/bg2.png">
@@ -135,7 +130,7 @@
         </section>
             
             
-        <section class="section">
+        <section class="section innerpage">
             <div class="content">
                 <div class="Spec">
                     <h2>Spec for development</h2>
@@ -145,7 +140,7 @@ alongside annotated breakdowns of flows and the original wireframes.</p>
             </div>
         </section>
             
-            <section class="section">
+            <section class="section innerpage">
             <div class="content">
                 <div class="bg_top2">
                     <img src="images/bg1.png">
@@ -154,7 +149,7 @@ alongside annotated breakdowns of flows and the original wireframes.</p>
                 </div>
         </section>
         
-            <section class="section">
+            <section class="section innerpage">
             <div class="content">
                 <div class="bg_top2">
                     <img src="images/bg2.png">
@@ -163,7 +158,7 @@ alongside annotated breakdowns of flows and the original wireframes.</p>
                 </div>
         </section>
         
-            <section class="section">
+            <section class="section innerpage">
             <div class="content">
                 <div class="bg_top2">
                     <img src="images/bg3.png">
@@ -172,7 +167,7 @@ alongside annotated breakdowns of flows and the original wireframes.</p>
                 </div>
         </section>
         
-            <section class="section">
+            <section class="section innerpage">
             <div class="content">
                 <div class="bg_top2">
                     <img src="images/bg4.png">
@@ -181,7 +176,7 @@ alongside annotated breakdowns of flows and the original wireframes.</p>
                 </div>
         </section>
         
-            <section class="section">
+            <section class="section innerpage">
             <div class="content">
                 <div class="More_Projects">
                     <h2>More Projects</h2>
@@ -194,9 +189,9 @@ alongside annotated breakdowns of flows and the original wireframes.</p>
         </section>
         
 			
-            </div>
-            
+            </div>  
     </div>
+        
         <footer>
             
             <div class="footer_main">
