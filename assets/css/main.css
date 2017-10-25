@@ -482,6 +482,10 @@ color: #fff;
     font-weight: bolder;
 }
 
+.text_head h6 {
+    margin-bottom: 15px;
+}
+
 .abt_photos img {
     width: 100%;
 }
