@@ -449,6 +449,11 @@ color: #fff;
     
 }
 
+.abt_bg img {
+    width: 100%;
+}
+
+
 .text_head {
     font-size: 2em;
     text-align: center;
