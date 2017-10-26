@@ -830,6 +830,15 @@ padding:0px;
 
 .text_head {
     font-size: 1.3em;
+    margin-top: -20px;
+}
+
+    .text_head h1 {
+    font-weight: bolder;
+    font-size: 1em;
+}
+    .text_head h6 {
+    margin-bottom: 0px;
 }
 
 .footer_nav a {
@@ -845,6 +854,9 @@ padding:0px;
 .footer_nav {
     margin-top: 50px;
 }
+    .footer_main {
+    margin-top: -92px;
+}
 
 .copyrite{
 	margin-top:50px;
@@ -856,7 +868,7 @@ padding:0px;
 }
 
 .abt_box img {
-    margin-top: 30px;
+    margin-top: -10px;
 }
     
     .abt_box p {
@@ -1071,7 +1083,7 @@ h3 {
 
 .abt_bg img {
     width: 100%;
-    margin-top: 100px;
+    margin-top: 132px;
 }
 
 .abt_service {
@@ -1087,7 +1099,10 @@ padding:0px;
 }
 
 .abt_photos {
-    width: 100%;
+    width: 270px;
+    float: none;
+    padding: 38px 0px;
+    margin: 0px auto;
 }
 
 .testimonial_box {
@@ -1101,6 +1116,7 @@ padding:0px;
 
 .text_head {
     font-size: 1.3em;
+    margin-top: 0px;
 }
 
 .footer_nav a {
@@ -1280,6 +1296,17 @@ h3 {
     .innerpage{
     padding-top: 1px;
 }
+    
+    .text_head {
+    margin-top: 0px;
+}
+    .abt_photos {
+    width: 176px;
+    float: none;
+    padding: 38px 17px;
+    margin: 0px auto;
+}
+    
 
 
     
