@@ -574,8 +574,12 @@ color: #fff;
     padding-top: 9px;
     color: #a8acb9;
 }
+
 .testimonial_box p {
     font-size: 1.1em;
+    width: 306px;
+    margin: 0px auto;
+}
 }
 
 .clients {
@@ -829,7 +833,7 @@ padding:0px;
 }
     
 .clients img {
-    width: 36%;
+    float
     }
     
     .abt_box p {
@@ -1391,7 +1395,13 @@ header {
 
 
 
+.footer_main {
+    margin-top: 150px;
+}
 
+.clients img {
+    float: left;
+}
 
 
 
