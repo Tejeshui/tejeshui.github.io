@@ -841,6 +841,16 @@ padding:0px;
     color: #ffff;
     line-height: 3pc;
 }
+	.text_head{
+	    
+margin-top: -40PX;
+
+}
+
+.footer_main{
+
+	margin-top: 0px;
+}
 
 .footer_nav {
     margin-top: 50px;
@@ -1115,6 +1125,16 @@ padding:0px;
 
 .footer_nav {
     margin-top: 50px;
+}
+	.text_head{
+	    
+margin-top: -40PX;
+
+}
+
+.footer_main{
+
+	margin-top: 0px;
 }
 
 .copyrite{
