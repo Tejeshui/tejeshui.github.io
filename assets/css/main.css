@@ -138,10 +138,6 @@ p{
     font-size: 36px;
     margin-left: 50px;
 }
-	
-	.owl-page span {
-    width: 26px !important;
-}
 
 @media screen and (max-height: 450px) {
   .sidenav {padding-top: 15px;}
@@ -574,12 +570,8 @@ color: #fff;
     padding-top: 9px;
     color: #a8acb9;
 }
-
 .testimonial_box p {
     font-size: 1.1em;
-    width: 306px;
-    margin: 0px auto;
-}
 }
 
 .clients {
@@ -595,7 +587,6 @@ color: #fff;
 .abt_clients {
     margin-bottom: 100px;
 }
-/* footer **/
 
 .footer_main {
     width: 100%;
@@ -634,9 +625,6 @@ color: #fff;
     width: 100%;
     text-align: center;
     margin-top: 97px;
-}
-.footer_main {
-    margin-top: 150px;
 }
 
 /* responsive design **/
@@ -833,7 +821,7 @@ padding:0px;
 }
     
 .clients img {
-    float
+    width: 36%;
     }
     
     .abt_box p {
@@ -852,16 +840,6 @@ padding:0px;
     font-size: 1.3em;
     color: #ffff;
     line-height: 3pc;
-}
-	.text_head{
-	    
-margin-top: -40PX;
-
-}
-
-.footer_main{
-
-	margin-top: 0px;
 }
 
 .footer_nav {
@@ -1093,7 +1071,7 @@ h3 {
 
 .abt_bg img {
     width: 100%;
-    margin-top: 140px;
+    margin-top: 100px;
 }
 
 .abt_service {
@@ -1103,15 +1081,13 @@ h3 {
 
 .abt_box {
     width: 100%;
-    text-align: center;
-    margin-top: 15px;
-    padding: 0px;
+text-align: center;
+margin-top: 50px;
+padding:0px;
 }
 
 .abt_photos {
     width: 100%;
-    padding: 38px 0px;
-}
 }
 
 .testimonial_box {
@@ -1125,7 +1101,6 @@ h3 {
 
 .text_head {
     font-size: 1.3em;
-    margin-top: 25PX;
 }
 
 .footer_nav a {
@@ -1141,16 +1116,6 @@ h3 {
 .footer_nav {
     margin-top: 50px;
 }
-	.text_head{
-	    
-margin-top: -40PX;
-
-}
-
-.footer_main{
-
-	margin-top: 0px;
-}
 
 .copyrite{
 	margin-top:50px;
@@ -1163,10 +1128,6 @@ margin-top: -40PX;
 
 .abt_box img {
     margin-top: 30px;
-}
-.abt_bg img {
-    width: 100%;
-    margin-top: 140px;
 }
     
 }
@@ -1320,9 +1281,6 @@ h3 {
     padding-top: 1px;
 }
 
-	.intialpage {
-    margin-top: 140px;
-}
 
     
 }
@@ -1395,13 +1353,7 @@ header {
 
 
 
-.footer_main {
-    margin-top: 150px;
-}
 
-.clients img {
-    float: left;
-}
 
 
 
