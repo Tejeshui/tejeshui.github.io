@@ -1152,6 +1152,10 @@ margin-top: -40PX;
 .abt_box img {
     margin-top: 30px;
 }
+.abt_bg img {
+    width: 100%;
+    margin-top: 140px;
+}
     
 }
 
