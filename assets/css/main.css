@@ -138,6 +138,10 @@ p{
     font-size: 36px;
     margin-left: 50px;
 }
+	
+	.owl-page span {
+    width: 26px !important;
+}
 
 @media screen and (max-height: 450px) {
   .sidenav {padding-top: 15px;}
